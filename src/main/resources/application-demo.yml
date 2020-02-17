@@ -1,0 +1,23 @@
+spring:
+  profiles:
+      active: @spring.profiles.active@
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: default
+    show-sql: true
+
+  datasource:
+    continue-on-error: false
+    generate-unique-name: false
+
+server:
+  port: 9595
+
+
+#app:
+#  datasource:
+#   url: jdbc:postgresql://userdb.cfukvisk7rje.eu-central-1.rds.amazonaws.com:5432/postgres
+#   username: postgres
+#   password: springstefan
+#   pool-size: 30
