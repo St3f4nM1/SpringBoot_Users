@@ -27,7 +27,8 @@ public class UserService {
     public void addUser(UserModel userModel) {
         userRepository.save(userModel);
     }
-    public UserModel getUser(int id){
+
+    public UserModel getUser(int id) {
         return userRepository.findById(id).orElse(null);
     }
 

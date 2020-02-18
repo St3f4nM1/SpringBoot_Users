@@ -1,13 +1,13 @@
 ----------------------------------------------------------------
-Mon Feb 17 22:19:26 CET 2020:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0170-5505-27d0-000008ada848 
-on database directory memory:/Users/stefan/Desktop/Api/user/testdb with class loader sun.misc.Launcher$AppClassLoader@6bc7c054 
-Loaded from file:/Users/stefan/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+Tue Feb 18 09:52:44 CET 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0170-577f-e4b0-00000b327438 
+on database directory memory:C:\Users\smitkovski\Desktop\private\SpringBoot_Users\testdb with class loader sun.misc.Launcher$AppClassLoader@42a57993 
+Loaded from file:/C:/Users/smitkovski/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
 java.vendor=Oracle Corporation
-java.runtime.version=1.8.0_211-b12
-user.dir=/Users/stefan/Desktop/Api/user
-os.name=Mac OS X
-os.arch=x86_64
-os.version=10.14.5
+java.runtime.version=1.8.0_231-b11
+user.dir=C:\Users\smitkovski\Desktop\private\SpringBoot_Users
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
 derby.system.home=null
 Database Class Loader started - derby.database.classpath=''

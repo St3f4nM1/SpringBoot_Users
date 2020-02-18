@@ -1,6 +1,8 @@
+server:
+  port: 9595
 spring:
   profiles:
-      active: @spring.profiles.active@
+    active: @spring.profiles.active@
   jpa:
     hibernate:
       ddl-auto: update
@@ -10,14 +12,8 @@ spring:
   datasource:
     continue-on-error: false
     generate-unique-name: false
+    driver-class-name: org.apache.derby.jdbc.EmbeddedDriver
+    url: jdbc:h2:mem:db;SCHEMA=public;
+    username: sa
+    password: sa
 
-server:
-  port: 9595
-
-
-#app:
-#  datasource:
-#   url: jdbc:postgresql://userdb.cfukvisk7rje.eu-central-1.rds.amazonaws.com:5432/postgres
-#   username: postgres
-#   password: springstefan
-#   pool-size: 30
