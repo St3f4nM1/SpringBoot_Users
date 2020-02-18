@@ -1,5 +1,4 @@
-server:
-  port: 9595
+
 spring:
   profiles:
     active: @spring.profiles.active@
@@ -16,4 +15,7 @@ spring:
     url: jdbc:h2:mem:db;SCHEMA=public;
     username: sa
     password: sa
+
+server:
+  port: 9595
 

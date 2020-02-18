@@ -22,8 +22,17 @@ public class UserController {
     }
 
     @RequestMapping("/users/{id}")
-    public UserModel getTopic(@PathVariable int id) {
+    public UserModel getUserById(@PathVariable int id) {
         return userService.getUser(id);
+    }
 
+    @RequestMapping("/users/{id}")
+    public void updateUserById(@RequestBody UserModel userModel, @PathVariable int id) {
+        userService.updateUser(id, userModel);
+    }
+
+    @RequestMapping(method = RequestMethod.DELETE, path = "/user/{id}")
+    public void deleteUserById(@PathVariable int id) {
+        userService.deleteUser(id);
     }
 }
